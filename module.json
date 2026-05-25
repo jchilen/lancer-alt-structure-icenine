@@ -1,15 +1,20 @@
 {
-  "id": "lancer-alt-structure",
-  "title": "LANCER Alternative Structure",
-  "description": "Implements alternative structure rulesets for Lancer",
+  "id": "lancer-alt-structure-icenine",
+  "title": "LANCER Alternative Structure (IceNine)",
+  "description": "Implements IceNine's alternative structure rulesets for Lancer",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 11,
-    "verified": 11
+    "minimum": 13,
+    "verified": 13
   },
   "authors": [
+    {
+      "name": "IceNine",
+      "url": "https://github.com/jchilen",
+      "discord": "icenine-"
+    },
     {
       "name": "BadIdeasBureau",
       "url": "https://github.com/BadIdeasBureau",
@@ -26,7 +31,7 @@
     "id": "lancer",
     "type": "system",
     "compatibility": {
-      "minimum": "2.0.0"
+      "minimum": "3.0.0"
     }
     }]
   },
@@ -47,11 +52,5 @@
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
   "license": "LICENSE",
-  "readme": "README.md",
-  "media": [
-    {
-      "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
-    }
-  ]
+  "readme": "README.md"
 }
