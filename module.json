@@ -4,7 +4,6 @@
   "description": "Implements IceNine's alternative structure rulesets for Lancer",
   "version": "#{VERSION}#",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 13,
     "verified": 13
@@ -35,9 +34,6 @@
     }
     }]
   },
-  "system": [
-    "lancer"
-  ],
   "esmodules": [
     "scripts/module.js"
   ],
