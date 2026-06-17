@@ -147,6 +147,22 @@ export async function insertHullCheckButton(state) {
         >
           <i class="fas fa-dice-d20 i--sm"></i> HULL
         </a>`);
+    state.data.embedButtons.push(`<a
+          class="flow-button lancer-button"
+          data-flow-type="check"
+          data-check-type="agility"
+          data-actor-id="${actor.uuid}"
+        >
+          <i class="fas fa-dice-d20 i--sm"></i> AGILITY
+        </a>`);
+    state.data.embedButtons.push(`<a
+          class="flow-button lancer-button"
+          data-flow-type="check"
+          data-check-type="systems"
+          data-actor-id="${actor.uuid}"
+        >
+          <i class="fas fa-dice-d20 i--sm"></i> SYSTEMS
+        </a>`);
   }
   return true;
 }
